@@ -1,0 +1,72 @@
+var myObj = {
+  make: 'Ford'
+}
+undefined
+myObj.make
+"Ford"
+myObj.year = 1999
+1999
+myObj
+Object {make: "Ford", year: 1999}
+
+
+Regex
+
+Hide network messages
+All
+Errors
+Warnings
+Info
+Logs
+Debug
+Handled
+.
+var a;
+undefined
+a
+undefined
+var b = undefined;
+undefined
+b
+undefined
+var c = null;
+undefined
+var myObj = {name: 'george'}
+undefined
+if (myObj) {
+   console.log('hello world')
+}
+VM1838:3 hello world
+undefined
+if (a) {
+   console.log('hello world')
+}
+undefined
+.
+
+
+(null === undefined)
+false
+(null == undefined)
+true
+var a = null;
+undefined
+if (a){
+
+}
+undefined
+var a = undefined;
+undefined
+if (!a) {
+  console.log('hello');
+}
+VM2131:3 hello
+undefined
+!undefined
+true
+!!undefined
+false
+if (a) {
+ console.log('hello')
+}
+undefined
