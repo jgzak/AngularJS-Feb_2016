@@ -70,3 +70,85 @@ if (a) {
  console.log('hello')
 }
 undefined
+
+
+
+
+Regex
+
+Hide network messages
+All
+Errors
+Warnings
+Info
+Logs
+Debug
+Handled
+.
+var myArray = [1, 2, 3, 4,5 ]
+undefined
+myArray.push(10)
+6
+myArray
+[1, 2, 3, 4, 5, 10]
+myArray.pop();
+10
+myArray
+[1, 2, 3, 4, 5]
+myArray.splice(2, 1)
+[3]
+myArray
+[1, 2, 4, 5]
+myArray.splice(1, 0, {name: 'george})
+VM2602:2 Uncaught SyntaxError: Unexpected token ILLEGAL(…)
+myArray.splice(1, 0, {name: 'george'})
+.
+
+
+
+var a = 'george';
+undefined
+var b = a;
+undefined
+b
+"george"
+a = 'harry'
+"harry"
+a
+"harry"
+b
+"george"
+
+
+
+Regex
+
+Hide network messages
+All
+Errors
+Warnings
+Info
+Logs
+Debug
+Handled
+.
+var a = {
+   name: 'george'
+}
+undefined
+var b = a;
+undefined
+a
+Object {name: "george"}
+b
+Object {name: "george"}
+a.name = 'harry'
+"harry"
+a
+Object {name: "harry"}
+b
+Object {name: "harry"}
+
+
+
+
